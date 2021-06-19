@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-size: 12pt; */
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+    
+   
+    line-height: 1.5;
+}
+.h5{
+    color: white;
+}
+.banner img{
+    height:30vmax;
+}
+.slide img {
+    height: 40vmax;
+}
+.menu1 ul li a{
+    color: white !important;
+}
+@media screen and (max-width: 768px) {
+    .content-main h5,p  {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 767px){
+    .z{
+        display: none !important;
+    }
+}
+.navbar .y ul li a{
+    color: white !important;
+} 
